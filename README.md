@@ -20,6 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 # SnapShots
 
 
-![Snapshot 1](./Screenshot_1561136339.png)
-![Snapshot 2](./Screenshot_1561289001.png)
-![Snapshot 3](./Screenshot_1561289124.png)
+![Snapshot 1](./ScreenShots/Screenshot_1561136339.png)
+![Snapshot 2](./ScreenShots/Screenshot_1561289001.png)
+![Snapshot 3](./ScreenShots/Screenshot_1561289124.png)

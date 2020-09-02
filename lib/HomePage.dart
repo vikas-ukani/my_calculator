@@ -1,10 +1,11 @@
+// Import necessary packages
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
-  final String title;
+  final String title; // tital attribute
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -42,28 +43,28 @@ class _MyHomePageState extends State<MyHomePage> {
         _total = _total + number;
       }
     } else if (number == "=") {
-      num2 = double.parse(total);
+      num2 = double.parse(total); // final result
 
       if (operand == "+") {
-        _total = (num1 + num2).toString();
+        _total = (num1 + num2).toString(); // for addition
       }
 
       if (operand == "-") {
-        _total = (num1 - num2).toString();
+        _total = (num1 - num2).toString(); // substraction
       }
 
       if (operand == "*") {
-        _total = (num1 * num2).toString();
+        _total = (num1 * num2).toString(); // multiplications
       }
 
       if (operand == "/") {
-        _total = (num1 / num2).toString();
+        _total = (num1 / num2).toString(); // devision
       }
 
-      num1 = 0.0;
-      num2 = 0.0;
+      num1 = 0.0; // first input 
+      num2 = 0.0; // second input
 //      _total = "0";
-      operand = "";
+      operand = ""; // default set to zero 
     } else {
       _total = _total + number;
     }
